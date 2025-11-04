@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Immersive 3D portfolio showcasing dreamy and mysterious interactive experiences" />
+    <meta name="theme-color" content="#0a0a0a" />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jeonghun - 3D Portfolio" />
+    <meta property="og:description" content="Immersive 3D portfolio showcasing dreamy and mysterious interactive experiences" />
+    <meta property="og:image" content="/og-image.jpg" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jeonghun - 3D Portfolio" />
+    <meta name="twitter:description" content="Immersive 3D portfolio showcasing dreamy and mysterious interactive experiences" />
+    <meta name="twitter:image" content="/og-image.jpg" />
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <title>Jeonghun - 3D Portfolio</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- Canvas will be injected by main.ts -->
+      <canvas id="three-canvas"></canvas>
+      
+      <!-- Loading indicator -->
+      <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading experience...</div>
+        <div class="loading-progress">
+          <div class="loading-progress-bar" id="loading-progress-bar"></div>
+        </div>
+      </div>
+      
+      <!-- WebGL fallback message -->
+      <div id="webgl-fallback" class="webgl-fallback" style="display: none;">
+        <div class="fallback-content">
+          <h1>WebGL 2.0 Not Supported</h1>
+          <p>This portfolio requires WebGL 2.0 to display 3D content.</p>
+          <p>Please try:</p>
+          <ul>
+            <li>Using a modern browser (Chrome 110+, Firefox 115+, Safari 16.4+, Edge 110+)</li>
+            <li>Updating your graphics drivers</li>
+            <li>Enabling hardware acceleration in your browser settings</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Navigation menu -->
+      <nav id="nav-menu" class="nav-menu">
+        <button class="nav-button" data-scene="landing">Home</button>
+        <button class="nav-button" data-scene="about">About</button>
+        <button class="nav-button" data-scene="projects">Projects</button>
+        <button class="nav-button" data-scene="contact">Contact</button>
+      </nav>
+      
+      <!-- Performance overlay (dev only, toggled with Shift+F) -->
+      <div id="perf-overlay" class="perf-overlay" style="display: none;"></div>
+    </div>
+    
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

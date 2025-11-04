@@ -31,7 +31,16 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- UX Consistency (Principle I): Proposed interactions and transitions explicitly
+  describe how they sustain dreamy, mysterious, calm immersion. No abrupt jumps.
+- Performance (Principle II): Document expected FPS and transition timings; list
+  performance techniques (instancing, LOD, lazy loading) relevant to the feature.
+- Stability (Principle III): Identify edge conditions (resize, tab hidden, context
+  loss) and the plan for defensive handling.
+- Architecture (Principle IV): Define lifecycle hooks (init/mount/update/dispose)
+  for new scene components; resource disposal accounted for.
+- Accessibility (Principle V): Input methods, reduced motion pathway, and fallback
+  behavior considered and testable.
 
 ## Project Structure
 
