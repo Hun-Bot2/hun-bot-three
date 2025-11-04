@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-11-04",
+    "author": "Jeonghun"
+  },
+  "sections": [
+    {
+      "id": "landing",
+      "type": "landing",
+      "title": "Welcome",
+      "subtitle": "Immersive 3D Experiences",
+      "cameraPosition": { "x": 0, "y": 2, "z": 8 },
+      "cameraTarget": { "x": 0, "y": 0, "z": 0 },
+      "content": null,
+      "projects": null,
+      "backgroundModelUrl": "/models/landing-focal.glb"
+    },
+    {
+      "id": "about",
+      "type": "content",
+      "title": "About Me",
+      "subtitle": "Creative Developer & 3D Artist",
+      "cameraPosition": { "x": -5, "y": 3, "z": 6 },
+      "cameraTarget": { "x": 0, "y": 1, "z": 0 },
+      "content": {
+        "markdown": "# About Me\n\nI craft immersive digital experiences that blend creativity with cutting-edge web technology. Specializing in Three.js, WebGL, and interactive 3D design.\n\n## Skills\n- Three.js & WebGL\n- TypeScript & Modern JavaScript\n- GSAP Animations\n- 3D Modeling & Optimization\n- Performance Engineering",
+        "html": null
+      },
+      "projects": null,
+      "backgroundModelUrl": null
+    },
+    {
+      "id": "projects",
+      "type": "projects",
+      "title": "Featured Work",
+      "subtitle": "Interactive 3D Projects",
+      "cameraPosition": { "x": 0, "y": 4, "z": 10 },
+      "cameraTarget": { "x": 0, "y": 0, "z": -2 },
+      "content": null,
+      "projects": [
+        {
+          "id": "project-1",
+          "title": "Dreamy Portfolio",
+          "description": "An immersive Three.js portfolio with smooth camera transitions and atmospheric particle effects.",
+          "thumbnailUrl": "/textures/project-1-thumb.jpg",
+          "modelUrl": "/models/project-1.glb",
+          "tags": ["Three.js", "GSAP", "WebGL"],
+          "link": "https://example.com/project-1"
+        },
+        {
+          "id": "project-2",
+          "title": "Interactive Gallery",
+          "description": "A 3D art gallery with drag-to-rotate interactions and dynamic lighting.",
+          "thumbnailUrl": "/textures/project-2-thumb.jpg",
+          "modelUrl": "/models/project-2.glb",
+          "tags": ["Three.js", "Interaction", "Lighting"],
+          "link": "https://example.com/project-2"
+        },
+        {
+          "id": "project-3",
+          "title": "Particle Experiment",
+          "description": "GPU particle system with 100k+ particles and custom shaders.",
+          "thumbnailUrl": "/textures/project-3-thumb.jpg",
+          "modelUrl": "/models/project-3.glb",
+          "tags": ["GLSL", "Shaders", "Performance"],
+          "link": "https://example.com/project-3"
+        }
+      ],
+      "backgroundModelUrl": null
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "title": "Get In Touch",
+      "subtitle": "Let's create something amazing",
+      "cameraPosition": { "x": 5, "y": 3, "z": 6 },
+      "cameraTarget": { "x": 0, "y": 1, "z": 0 },
+      "content": {
+        "markdown": "# Contact\n\nInterested in collaborating? Let's connect!\n\n- **Email**: hello@example.com\n- **GitHub**: github.com/jeonghun\n- **LinkedIn**: linkedin.com/in/jeonghun",
+        "html": null
+      },
+      "projects": null,
+      "backgroundModelUrl": null
+    }
+  ]
+}
