@@ -152,10 +152,17 @@ Examples of foundational tasks (adjust based on your project):
 
 - [ ] TXXX [P] Documentation updates in docs/
 - [ ] TXXX Code cleanup and refactoring
-- [ ] TXXX Performance optimization across all stories
+- [ ] TXXX Performance optimization across all stories (meet FPS targets per constitution)
 - [ ] TXXX [P] Additional unit tests (if requested) in tests/unit/
 - [ ] TXXX Security hardening
 - [ ] TXXX Run quickstart.md validation
+
+### Constitution Quality Gates (Global)
+
+- [ ] TXXX Add dev-only FPS overlay and profiler script for landing scene
+- [ ] TXXX Implement resize, visibility change, and context loss handlers
+- [ ] TXXX Ensure disposal hooks free geometries, materials, textures on unmount
+- [ ] TXXX Validate reduced-motion pathway and keyboard navigation for key flows
 
 ---
 
