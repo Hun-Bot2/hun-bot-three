@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Lock files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Testing
+coverage/
+test-results/
+playwright-report/
+
+# Cache files
+.eslintcache
+*.tsbuildinfo
+
+# Generated files
+.github/copilot-instructions.md
+
+# Logs
+*.log
+
+# Speckit templates (keep original formatting)
+.specify/templates/
